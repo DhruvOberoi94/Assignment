@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metatype:MetaData xmlns:metatype="http://www.osgi.org/xmlns/metatype/v1.2.0" localization="OSGI-INF/l10n/com.ttn.sling.project.core.service.StudentConfiguration">
+  <OCD id="com.ttn.sling.project.core.service.StudentConfiguration" name="Student service configuration" description="Service Configuration">
+    <AD id="maxStudentValue" type="Integer" name="Max Students" description="Number of students allowed"/>
+    <AD id="passingMarks" type="Float" name="Passing Marks" description="Marks required to pass"/>
+  </OCD>
+  <Designate pid="com.ttn.sling.project.core.service.impl.StudentServiceImp">
+    <Object ocdref="com.ttn.sling.project.core.service.StudentConfiguration"/>
+  </Designate>
+</metatype:MetaData>
