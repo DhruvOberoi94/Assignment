@@ -1,0 +1,21 @@
+Manifest-Version: 1.0
+Bnd-LastModified: 1553418889732
+Bundle-ManifestVersion: 2
+Bundle-Name: osgiDemo1
+Bundle-SymbolicName: osgiDemo1
+Bundle-Version: 1.0.0.201903240914
+Created-By: 1.8.0_202 (Amazon.com Inc.)
+Import-Package: org.slf4j;version="[1.7,2)"
+Private-Package: com.ttn.sling.project.core.service,com.ttn.sling.proj
+ ect.core.service.impl
+Provide-Capability: osgi.service;objectClass:List<String>="com.ttn.sli
+ ng.project.core.service.ClassConfigurationService",osgi.service;objec
+ tClass:List<String>="com.ttn.sling.project.core.service.StudentClassS
+ ervice"
+Require-Capability: osgi.extender;filter:="(&(osgi.extender=osgi.compo
+ nent)(version>=1.3.0)(!(version>=2.0.0)))",osgi.ee;filter:="(&(osgi.e
+ e=JavaSE)(version=1.8))"
+Service-Component: OSGI-INF/com.ttn.sling.project.core.service.impl.Cl
+ assConfigurationServiceImpl.xml,OSGI-INF/com.ttn.sling.project.core.s
+ ervice.impl.StudentClassServiceImpl.xml
+Tool: Bnd-3.5.0.201709291849

@@ -1,0 +1,7 @@
+com/ttn/sling/project/core/service/impl/StudentClassServiceImpl.class
+com/ttn/sling/project/core/service/Student.class
+com/ttn/sling/project/core/service/impl/ClassConfigurationServiceImpl.class
+com/ttn/sling/project/core/service/ClassConfigurations.class
+com/ttn/sling/project/core/service/StudentClassService.class
+com/ttn/sling/project/core/service/ClassConfigurationService.class
+com/ttn/sling/project/core/service/StudentConfigurations.class
